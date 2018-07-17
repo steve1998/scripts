@@ -1,6 +1,7 @@
 # Scripts
 Useful scripts. More coming soon. 
-## Scripts Available
+### Scripts Available:
 * Get Local and UTC Date
 * SMTP E-mail Sending
 * Text File Palindrome Checker
+* Simple Calculator (Addition, Subtraction, Multiplication, Division)
