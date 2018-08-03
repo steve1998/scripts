@@ -5,7 +5,7 @@ def palindrome(str):
     reversedWord = str[::-1]
 
     # comparison of each word
-    if str.lower() != reverse.lower():
+    if str.lower() != reversedWord.lower():
         return False
     
     return True
