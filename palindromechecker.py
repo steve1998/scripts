@@ -2,16 +2,12 @@
 
 # palindrome function
 def palindrome(str):
-    i = 0
-    j = len(str) - 1
+    reversedWord = str[::-1]
 
     # comparison of each word
-    while j > i:
-        if str[i] != str[j]:
-            return False
-        i = i + 1
-        j = j - 1
-
+    if str.lower() != reversedWord.lower():
+        return False
+    
     return True
 
 def main():
