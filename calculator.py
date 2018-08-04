@@ -29,26 +29,27 @@ def main():
         else:
             break
 
+    result = 0.0
+
     while check:
         choice = input("Choose an arithmetic operation (add, min, multiply, divide): ")
-        if choice == "add" or choice == "min" or choice == "multiply" or choice == "divide":
-           break
+    
+        if choice == "add":
+            result = add(x, y)
+            check = False
+        elif choice == "min":
+            result = min(x, y)
+            check = False
+        elif choice == "multiply":
+            result = multiply(x, y)
+            check = False
+        elif choice == "divide":
+            result = divide(x, y)
+            check = False
         else:
             print("Please enter a valid arithmetic operation!")
 
-    if choice == "add":
-        res = add(x, y)
-    elif choice == "min":
-        res = min(x, y)
-    elif choice == "multiply":
-        res = multiply(x, y)
-    elif choice == "divide":
-        res = divide(x, y)
-    else:
-        print("You didn't type anything in!")
-        return 0
-
-    print("The result is", res)
+    print("The result is", result)
     return 0
 
 if __name__ == "__main__":
