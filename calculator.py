@@ -49,7 +49,7 @@ def main():
         else:
             print("Please enter a valid arithmetic operation!")
 
-    print("The result is", result)
+    print(f"The result is {result:.3f}")
     return 0
 
 if __name__ == "__main__":
