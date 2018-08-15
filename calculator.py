@@ -1,21 +1,30 @@
 # Simple calculator script in shell
 # May be extended to support other features as well as other libraries
 
-# Add two numbers together.
-def add(x, y):
-    return x + y
+def add(addend1:float , addend2: float) -> float:
+    """
+        Summation between two addends.
+    """
+    return addend1 + addend2
 
-# Subtract two numbers.
-def min(x, y):
-    return x - y
+def min(subtrahend: float, minuend: float) -> float:
+    """
+        Subtracts minued from subtrahend.
+    """
+    return subtrahend - minuend
 
 # Multiply two numbers.
-def multiply(x, y):
-    return x * y
+def multiply(multiplicand: float, multiplier:float) -> float:
+    """
+        Performs multiplication on the multiplicand and multiplier.
+    """
+    return multiplicand * multiplier
 
-# Divide two numbers.
-def divide(x, y):
-    return x / y
+def divide(numerator: float, denominator:float) -> float:
+    """
+        Divides the numerator to the denominator.
+    """
+    return numerator / denominator
 
 def main():
     check = True
