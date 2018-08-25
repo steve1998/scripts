@@ -1,5 +1,8 @@
 # Scripts
 Useful scripts. More coming soon. 
+
+[![Build Status](https://travis-ci.org/ferdinh/python-scripts.svg?branch=master)](https://travis-ci.org/ferdinh/python-scripts)
+
 ### Scripts Available:
 * Get Local and UTC Date
 * SMTP E-mail Sending
