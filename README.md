@@ -8,6 +8,7 @@ Useful scripts. More coming soon.
 * SMTP E-mail Sending
 * Text File Palindrome Checker
 * Simple Calculator (Addition, Subtraction, Multiplication, Division)
+* More Coming Soon
 
 # Testing
 
